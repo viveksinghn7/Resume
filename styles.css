@@ -75,12 +75,8 @@ p {
     font-size: 0.9rem;
 }
 
-.social-media {
-  text-align: center;
-  font-size: 0.9rem;
-}
-
 .right-side-details {
+    margin: 2px;
     float: right;
 }
 
@@ -98,6 +94,7 @@ p {
 }
 
 
+
 /* Responsive adjustments */
 @media (max-width: 768px) {
     .container {
@@ -112,6 +109,12 @@ p {
 
     .field-details {
         font-size: 0.9rem;
+    }
+
+    .right-side-details {
+       font-size: 0.8rem;
+        margin: 3px;
+        float: right;
     }
 
     header h1 {
@@ -144,6 +147,12 @@ p {
 
     .field-details {
         font-size: 0.5rem;
+    }
+
+    .right-side-details {
+       font-size: 0.5rem;
+        margin: 2px;
+        float: right;
     }
 
     header h1 {
