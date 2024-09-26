@@ -64,6 +64,8 @@ ul li p {
     margin: 5px 0 0 0;
 }
 
+
+
 p {
     text-align: justify;
     font-size: 15px;
@@ -80,7 +82,6 @@ p {
 }
 
 .education-year {
-    font-weight: bold;
     float: right;
 }
 
@@ -91,6 +92,10 @@ p {
 .project-languages {
     float: right;
     font-style: italic;
+}
+
+.no-wrap {
+  white-space: nowrap;
 }
 
 
@@ -130,8 +135,8 @@ p {
 @media (max-width: 480px) {
     .container {
         max-width: 90%;
-        padding: 15px;
-        margin: 15px;
+        padding: 10px;
+        margin: 10px;
     }
 
     .contact-details {
@@ -147,11 +152,16 @@ p {
     }
 
     section h2 {
-        font-size: 0.7rem;
+        font-size: 0.6rem;
+    }
+
+    ul, li {
+      margin: 0 0 0 6px;
+      padding: 0;
     }
 
     ul li {
-        font-size: 0.6rem;
+        font-size: 0.5rem;
     }
 
     p {
