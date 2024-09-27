@@ -82,9 +82,13 @@ ul li p {
     margin: 5px 0 0 0;
 }
 
-/* Footer */
-.right-side-details {
+/* Right Side Section */
+.project-languages {
     float: right;
+}
+
+.right-side-details {
+   float: right;
 }
 
 
