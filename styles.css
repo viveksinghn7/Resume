@@ -7,11 +7,6 @@ body {
     background-color: #DBE2EF;
 }
 
-p {
-    font-size: 1rem;
-    margin: 3px;
-}
-
 .container {
     text-align: justify;
     max-width: 800px;
@@ -20,6 +15,11 @@ p {
     padding: 30px;
     background: #F5F7F8;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+p {
+    font-size: 1rem;
+    margin: 3px;
 }
 
 /* Contact Section */
@@ -94,6 +94,10 @@ ul li p {
     width: 100%;
 }
 
+.education-mobile {
+    display: none;
+}
+
 .left {
     text-align: left;
     width: 75%;
@@ -127,6 +131,10 @@ ul li p {
     .contact-details, .education-header, ul li, p {
         font-size: 0.9rem;
     }
+
+    .education-mobile {
+        display: none;
+    }
 }
 
 /* Mobile Phone */
@@ -138,25 +146,37 @@ ul li p {
     }
 
     header h1 {
-        font-size: 1.2rem;
+        font-size: 1.5rem;
         letter-spacing: 1px;
     }
 
     section h2 {
-        font-size: 0.6rem;
-        letter-spacing: 1px;
+        text-align: center;
+        font-size: 0.82rem;
+        letter-spacing: 0.5px;
     }
+    
 
     .contact-details, .education-header, ul li, p {
-        font-size: 0.5rem;
+        font-size: 0.75rem;
+    }
+
+    .project-languages{
+        display: none;
     }
 
     th, td {
+        font-size: 0.9rem;
         padding: 0;
     }
 
+    .education-mobile {
+        display: block;
+        margin-bottom: 15px;
+    }
+
     .education-header {
-        margin-bottom: 5px;
+        display: none;
     }
 
     ul, li {
