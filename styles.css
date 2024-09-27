@@ -9,7 +9,7 @@ body {
 
 p {
     text-align: justify;
-    font-size: 15px;
+    font-size: 1rem;
     margin: 3px;
 }
 
@@ -29,7 +29,7 @@ p {
 }
 
 .no-wrap {
-  white-space: nowrap;
+    white-space: nowrap;
 }
 
 /* Header Section */
@@ -82,16 +82,26 @@ ul li p {
     margin: 5px 0 0 0;
 }
 
-/* Right Side Section */
+/* Project Languages Section */
 .project-languages {
+    font-style: italic;
     float: right;
 }
 
-.right-side-details {
-   float: right;
+/* Education Section */
+.names {
+    width: 100%;
 }
 
+.left {
+    text-align: left;
+    width: 75%;
+}
 
+.right {
+    text-align: right;
+    width: 25%;
+}
 
 /* Responsive Adjustments */
 @media (max-width: 768px) {
@@ -99,14 +109,6 @@ ul li p {
         max-width: 90%;
         padding: 20px;
         margin: 20px;
-    }
-
-    .contact-details {
-        font-size: 0.8rem;
-    }
-
-    .right-side-details {
-       float: right;
     }
 
     header h1 {
@@ -119,15 +121,14 @@ ul li p {
         letter-spacing: 1.5px;
     }
 
-    ul li {
-        font-size: 0.8rem;
+    .contact-details {
+        font-size: 0.85rem;
     }
 
-    p {
-        font-size: 13px;
+    .names, ul li, p {
+        font-size: 0.9rem;
     }
 }
-
 
 @media (max-width: 480px) {
     .container {
@@ -136,34 +137,22 @@ ul li p {
         margin: 15px;
     }
 
-    .contact-details {
-        font-size: 0.6rem;
-    }
-
-    .university-name {
-      margin-top: -3px;
-    }
-
     header h1 {
         font-size: 1.2rem;
         letter-spacing: 1px;
     }
 
     section h2 {
-        font-size: 0.6rem;
+        font-size: 0.8rem;
         letter-spacing: 1px;
     }
 
+    .contact-details, .names, ul li, p {
+        font-size: 0.6rem;
+    }
+
     ul, li {
-      margin: 0 0 0 6px;
-      padding: 0;
-    }
-
-    ul li {
-        font-size: 0.5rem;
-    }
-
-    p {
-        font-size: 8px;
+        margin: 0 0 0 6px;
+        padding: 0;
     }
 }
