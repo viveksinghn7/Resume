@@ -111,9 +111,13 @@ p {
     }
 
     .right-side-details {
+       float: right;
        font-size: 0.8rem;
-        margin: 2px;
-        float: right;
+    }
+
+    .university-name {
+      font-size: 0.8rem;
+      margin-top: -3px;
     }
 
     header h1 {
@@ -127,7 +131,7 @@ p {
     }
 
     ul li {
-        font-size: 0.9rem;
+        font-size: 0.8rem;
     }
 
     p {
@@ -146,11 +150,6 @@ p {
         font-size: 0.6rem;
     }
 
-    .university-name {
-      font-size: 0.5rem;
-      margin-top: -3px;
-    }
-
     .field-details {
         font-size: 0.5rem;
     }
@@ -159,6 +158,11 @@ p {
         font-size: 0.5rem;
         margin: 0px;
         float: right;
+    }
+
+    .university-name {
+      font-size: 0.5rem;
+      margin-top: -3px;
     }
 
     header h1 {
