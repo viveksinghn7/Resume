@@ -81,9 +81,7 @@ ul li {
 ul li p {
     margin: 5px 0 0 0;
 }
-th td {
-  font-size: 1.5rem;
-}
+
 /* Project Languages Section */
 .project-languages {
     font-style: italic;
@@ -107,6 +105,8 @@ th td {
 }
 
 /* Responsive Adjustments */
+
+/* Tablet */
 @media (max-width: 768px) {
     .container {
         max-width: 90%;
@@ -124,15 +124,12 @@ th td {
         letter-spacing: 1.5px;
     }
 
-    .contact-details {
-        font-size: 0.85rem;
-    }
-
-    .education-header, ul li, p {
+    .contact-details, .education-header, ul li, p {
         font-size: 0.9rem;
     }
 }
 
+/* Mobile Phone */
 @media (max-width: 480px) {
     .container {
         max-width: 90%;
