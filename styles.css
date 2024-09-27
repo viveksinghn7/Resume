@@ -143,12 +143,20 @@ ul li p {
     }
 
     section h2 {
-        font-size: 0.8rem;
+        font-size: 0.6rem;
         letter-spacing: 1px;
     }
 
     .contact-details, .names, ul li, p {
-        font-size: 0.6rem;
+        font-size: 0.5rem;
+    }
+
+    th, td {
+        padding: 0;
+    }
+
+    .names {
+        margin-bottom: 5px;
     }
 
     ul, li {
