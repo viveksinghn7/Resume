@@ -107,7 +107,7 @@ p {
     }
 
     .field-details {
-        font-size: 0.9rem;
+        font-size: 0.8rem;
     }
 
     .right-side-details {
@@ -147,6 +147,7 @@ p {
     }
 
     .university-name {
+      font-size: 0.5rem;
       margin-top: -3px;
     }
 
